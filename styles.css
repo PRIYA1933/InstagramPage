@@ -1,0 +1,63 @@
+ i{
+       font-size: 1.4rem; /* make icons slightly bigger */
+      cursor: pointer;
+      
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 30px;
+    }
+    ul li {
+  display: flex;
+  flex-direction: column; /* stack image and text vertically */
+  align-items: center;    /* center text under image */
+}
+
+     ul li img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;          /* crop nicely */
+      border-radius: 50%;         /* makes it circle */
+      border: 3px solid #f56040;  /* Instagram story border color */
+      padding: 2px;
+      
+     }
+     .profile{
+       width: 50px;
+      height: 50px;
+     border-radius: 50%;
+        overflow: hidden; 
+       
+     }
+     .profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* makes it crop nicely */
+  border: none;       /* remove border */
+}
+
+ .name h6 {
+  font-weight: bold;
+  color: black;
+}
+.post-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+    }
+.post-actions .left-icons {
+      display: flex;
+      gap: 10px;
+    }
+   .liketext {
+  
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-left: 20px;
+     margin-top: 0;
+    
+    
+    }
